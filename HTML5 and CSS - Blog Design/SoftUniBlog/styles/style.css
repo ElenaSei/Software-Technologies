@@ -7056,3 +7056,8 @@ article .author  {
 article .author  {
   content: '\2014 \00A0';
 }
+.boxshadow {
+  border: 0px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 18px #888888;
+}
