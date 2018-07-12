@@ -14,9 +14,58 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="01. Base Project Overview.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/01. Base Project Overview.js">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="index.hbs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05. JavaScript-ExpressJS-Overview-Lab-Calculator-Skeleton/views/home/index.hbs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="32" column="26" lean-forward="true" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Calculator.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05. JavaScript-ExpressJS-Overview-Lab-Calculator-Skeleton/models/Calculator.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05. JavaScript-ExpressJS-Overview-Lab-Calculator-Skeleton/config/routes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/05. JavaScript-ExpressJS-Overview-Lab-Calculator-Skeleton/controllers/home.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="51" selection-start-column="51" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05. JavaScript-ExpressJS-Overview-Lab-Calculator-Skeleton/node_modules/serve-favicon/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="121" column="4" selection-start-line="121" selection-start-column="4" selection-end-line="121" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="www" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05. JavaScript-ExpressJS-Overview-Lab-Calculator-Skeleton/bin/www">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1155">
+              <caret line="77" column="1" lean-forward="true" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -32,6 +81,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/01. Base Project Overview.js" />
+        <option value="$PROJECT_DIR$/models/Calculator.js" />
+        <option value="$PROJECT_DIR$/05. JavaScript-ExpressJS-Overview-Lab-Calculator-Skeleton/config/routes.js" />
+        <option value="$PROJECT_DIR$/05. JavaScript-ExpressJS-Overview-Lab-Calculator-Skeleton/models/Calculator.js" />
+        <option value="$PROJECT_DIR$/05. JavaScript-ExpressJS-Overview-Lab-Calculator-Skeleton/views/home/index.hbs" />
+        <option value="$PROJECT_DIR$/05. JavaScript-ExpressJS-Overview-Lab-Calculator-Skeleton/controllers/home.js" />
       </list>
     </option>
   </component>
@@ -41,11 +95,16 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/05. JavaScript-ExpressJS-Overview-Lab-Calculator-Skeleton/node_modules" />
+  </component>
   <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/05. JavaScript-ExpressJS-Overview-Lab-Calculator-Skeleton/package.json" />
+    </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="39" />
+    <option name="x" value="105" />
     <option name="y" value="23" />
     <option name="width" value="1400" />
     <option name="height" value="837" />
@@ -63,6 +122,47 @@
               <item name="JavaScript ExpressJS Overview" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaScript ExpressJS Overview" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JavaScript ExpressJS Overview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaScript ExpressJS Overview" type="462c0819:PsiDirectoryNode" />
+              <item name="05. JavaScript-ExpressJS-Overview-Lab-Calculator-Skeleton" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaScript ExpressJS Overview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaScript ExpressJS Overview" type="462c0819:PsiDirectoryNode" />
+              <item name="05. JavaScript-ExpressJS-Overview-Lab-Calculator-Skeleton" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaScript ExpressJS Overview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaScript ExpressJS Overview" type="462c0819:PsiDirectoryNode" />
+              <item name="05. JavaScript-ExpressJS-Overview-Lab-Calculator-Skeleton" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaScript ExpressJS Overview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaScript ExpressJS Overview" type="462c0819:PsiDirectoryNode" />
+              <item name="05. JavaScript-ExpressJS-Overview-Lab-Calculator-Skeleton" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaScript ExpressJS Overview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaScript ExpressJS Overview" type="462c0819:PsiDirectoryNode" />
+              <item name="05. JavaScript-ExpressJS-Overview-Lab-Calculator-Skeleton" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaScript ExpressJS Overview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaScript ExpressJS Overview" type="462c0819:PsiDirectoryNode" />
+              <item name="05. JavaScript-ExpressJS-Overview-Lab-Calculator-Skeleton" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaScript ExpressJS Overview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaScript ExpressJS Overview" type="462c0819:PsiDirectoryNode" />
+              <item name="05. JavaScript-ExpressJS-Overview-Lab-Calculator-Skeleton" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -76,6 +176,11 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/05. JavaScript-ExpressJS-Overview-Lab-Calculator-Skeleton" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -88,8 +193,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.www">
     <configuration name="Run" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="www" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="www" working-dir="$PROJECT_DIR$/05. JavaScript-ExpressJS-Overview-Lab-Calculator-Skeleton/bin" />
+    <list>
+      <item itemvalue="Node.js.Run" />
+      <item itemvalue="Node.js.www" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.www" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -101,34 +216,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1531305440148</updated>
-      <workItem from="1531305441452" duration="1198000" />
+      <workItem from="1531305441452" duration="8513000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1198000" />
+    <option name="totallyTimeSpent" value="8513000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="39" y="23" width="1400" height="837" extended-state="1" />
+    <frame x="105" y="23" width="1400" height="837" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.32896462" />
+      <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32896462" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="5" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,8 +253,120 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/01. Base Project Overview.js">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05. JavaScript-ExpressJS-Overview-Lab-Calculator-Skeleton/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05. JavaScript-ExpressJS-Overview-Lab-Calculator-Skeleton/views/layout.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05. JavaScript-ExpressJS-Overview-Lab-Calculator-Skeleton/config/config.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05. JavaScript-ExpressJS-Overview-Lab-Calculator-Skeleton/config/express.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05. JavaScript-ExpressJS-Overview-Lab-Calculator-Skeleton/helpers/handlebarsHelpers.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05. JavaScript-ExpressJS-Overview-Lab-Calculator-Skeleton/node_modules/body-parser/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1562">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05. JavaScript-ExpressJS-Overview-Lab-Calculator-Skeleton/bin/www">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1155">
+          <caret line="77" column="1" lean-forward="true" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05. JavaScript-ExpressJS-Overview-Lab-Calculator-Skeleton/node_modules/serve-favicon/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="121" column="4" selection-start-line="121" selection-start-column="4" selection-end-line="121" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05. JavaScript-ExpressJS-Overview-Lab-Calculator-Skeleton/views/home/index.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="26" lean-forward="true" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05. JavaScript-ExpressJS-Overview-Lab-Calculator-Skeleton/models/Calculator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05. JavaScript-ExpressJS-Overview-Lab-Calculator-Skeleton/config/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05. JavaScript-ExpressJS-Overview-Lab-Calculator-Skeleton/node_modules/body-parser/lib/types/json.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="104" column="4" selection-start-line="104" selection-start-column="4" selection-end-line="104" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05. JavaScript-ExpressJS-Overview-Lab-Calculator-Skeleton/node_modules/mongoose/examples/schema/schema.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05. JavaScript-ExpressJS-Overview-Lab-Calculator-Skeleton/node_modules/body-parser/lib/types/text.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="63" column="4" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05. JavaScript-ExpressJS-Overview-Lab-Calculator-Skeleton/node_modules/hbs/lib/hbs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="84" column="6" selection-start-line="84" selection-start-column="6" selection-end-line="84" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="3600" column="4" selection-start-line="3600" selection-start-column="4" selection-end-line="3600" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05. JavaScript-ExpressJS-Overview-Lab-Calculator-Skeleton/controllers/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="51" selection-start-column="51" selection-end-column="51" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
