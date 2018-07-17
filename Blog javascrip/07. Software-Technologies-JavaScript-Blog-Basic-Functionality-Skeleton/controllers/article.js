@@ -5,6 +5,7 @@ module.exports = {
     createGet: (req, res) => {
         res.render('article/create');
     },
+
     createPost: (req, res) => {
         let articleArgs = req.body;
 
@@ -43,5 +44,54 @@ module.exports = {
         }).then(article => {
             res.render('article/details', article.dataValues)
         });
+    },
+
+    editGet: (req, res) => {
+        let articleId = req.params.id;
+
+        Article
+            .findById(articleId)
+            .then(article => {
+                res.render('article/edit', article.dataValues)
+            });
+    },
+
+    editPost: (req, res) => {
+        let articleArgs = req.body;
+        let articleId = req.params.id;
+
+        Article
+            .findById(articleId)
+            .then(article => {
+                article
+                    .update(articleArgs)
+                    .then(() => {
+                        res.redirect('/')
+                    });
+        })
+    },
+
+    deleteGet: (req, res) => {
+        let articleId = req.params.id;
+
+        Article
+            .findById(articleId)
+            .then(article => {
+                res.render('article/delete', article.dataValues)
+            });
+    },
+
+    deletePost: (req, res) => {
+        let articleId = req.params.id;
+
+        Article
+            .findById(articleId)
+            .then(article => {
+                article
+                    .destroy()
+                    .then(() => {
+                        res.redirect('/')
+                    });
+            })
     }
 };

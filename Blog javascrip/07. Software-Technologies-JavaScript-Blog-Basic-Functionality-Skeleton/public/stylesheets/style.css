@@ -7056,3 +7056,11 @@ article .author  {
 article .author  {
   content: '\2014 \00A0';
 }
+.box-shadow{
+  padding: 10px;
+  box-shadow: 5px 10px 18px #888888;
+}
+.space{
+  justify-content: space-between;
+  display: flex;
+}
