@@ -1117,7 +1117,8 @@ body {
   font-size: 15px;
   line-height: 1.42857143;
   color: #2c3e50;
-  background-color: #ffffff;
+
+  background-image: url("../images/background_calculator.jpg");
 }
 input,
 button,
@@ -2988,7 +2989,7 @@ select[multiple].input-lg {
     margin-left: 0;
   }
   .form-inline .has-feedback .form-control-feedback {
-    top: 0;
+    top: 0px;
   }
 }
 .form-horizontal .radio,
@@ -4530,7 +4531,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #18bc9c;
+  color: #1b8fbc;
   background-color: transparent;
 }
 .navbar-default .navbar-text {
@@ -5846,10 +5847,10 @@ button.list-group-item-danger.active:focus {
   padding-bottom: 75%;
 }
 .well {
-  min-height: 20px;
+  min-height: 400px;
   padding: 19px;
-  margin-bottom: 20px;
-  background-color: #ecf0f1;
+  margin-bottom: 200px;
+  background-color: rgba(29, 173, 188, 0.29);
   border: 1px solid transparent;
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
@@ -7056,3 +7057,15 @@ article .author  {
 article .author  {
   content: '\2014 \00A0';
 }
+
+.center-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 50vh;
+}
+
+.image {
+  background-image: url("../images/background_calculator.jpg");
+}
+
