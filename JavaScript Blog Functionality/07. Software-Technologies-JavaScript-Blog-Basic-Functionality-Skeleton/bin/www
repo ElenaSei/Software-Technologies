@@ -5,7 +5,7 @@
 const app = require('../app');
 const debug = require('debug')('softuniblog:server');
 const http = require('http');
-const usedPort = '8000';
+const usedPort = '8080';
 
 /**
  * Get port from environment and store in Express.
