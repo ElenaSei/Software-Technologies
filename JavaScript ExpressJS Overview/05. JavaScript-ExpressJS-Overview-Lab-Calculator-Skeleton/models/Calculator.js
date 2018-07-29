@@ -24,4 +24,5 @@ function Calculator(leftOperand, operator, rightOperand) {
         return result;
     }
 }
+
 module.exports = Calculator;

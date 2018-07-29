@@ -1,4 +1,4 @@
 {
-    "type": "object",
-    "name": "Symfony\\Bundle\\FrameworkBundle\\Tests\\Console\\Descriptor\\CallableClass"
+  "type": "object",
+  "name": "Symfony\\Bundle\\FrameworkBundle\\Tests\\Console\\Descriptor\\CallableClass"
 }

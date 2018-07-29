@@ -1,13 +1,13 @@
 {
-    "Version": "2.1.37.1",
-    "Names": {
-        "DKK": [
-            "kr.",
-            "DKK"
-        ],
-        "EUR": [
-            "€",
-            "euro"
-        ]
-    }
+  "Version": "2.1.37.1",
+  "Names": {
+    "DKK": [
+      "kr.",
+      "DKK"
+    ],
+    "EUR": [
+      "€",
+      "euro"
+    ]
+  }
 }

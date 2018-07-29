@@ -1,13 +1,13 @@
 {
-    "Version": "2.1.37.6",
-    "Names": {
-        "USD": [
-            "US$",
-            "dólar estadounidense"
-        ],
-        "UYU": [
-            "$",
-            "peso uruguayo"
-        ]
-    }
+  "Version": "2.1.37.6",
+  "Names": {
+    "USD": [
+      "US$",
+      "dólar estadounidense"
+    ],
+    "UYU": [
+      "$",
+      "peso uruguayo"
+    ]
+  }
 }

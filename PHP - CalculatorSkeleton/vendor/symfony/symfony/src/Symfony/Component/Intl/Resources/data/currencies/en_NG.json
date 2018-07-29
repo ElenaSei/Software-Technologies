@@ -1,9 +1,9 @@
 {
-    "Version": "2.1.31.33",
-    "Names": {
-        "NGN": [
-            "₦",
-            "Nigerian Naira"
-        ]
-    }
+  "Version": "2.1.31.33",
+  "Names": {
+    "NGN": [
+      "₦",
+      "Nigerian Naira"
+    ]
+  }
 }

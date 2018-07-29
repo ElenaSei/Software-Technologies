@@ -7,12 +7,12 @@
 
     <sec:config>
         <sec:providers>
-            <sec:provider name="default" id="foo" />
+            <sec:provider name="default" id="foo"/>
         </sec:providers>
 
         <sec:firewalls>
             <sec:firewall name="main" logout-on-user-change="true">
-                <sec:form_login provider="undefined" />
+                <sec:form_login provider="undefined"/>
             </sec:firewall>
         </sec:firewalls>
     </sec:config>

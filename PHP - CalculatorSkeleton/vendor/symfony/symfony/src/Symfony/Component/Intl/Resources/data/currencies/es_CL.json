@@ -1,13 +1,13 @@
 {
-    "Version": "2.1.37.6",
-    "Names": {
-        "CLP": [
-            "$",
-            "Peso chileno"
-        ],
-        "USD": [
-            "US$",
-            "dólar estadounidense"
-        ]
-    }
+  "Version": "2.1.37.6",
+  "Names": {
+    "CLP": [
+      "$",
+      "Peso chileno"
+    ],
+    "USD": [
+      "US$",
+      "dólar estadounidense"
+    ]
+  }
 }

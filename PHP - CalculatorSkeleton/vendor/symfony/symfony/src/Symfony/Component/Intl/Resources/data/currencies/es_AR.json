@@ -1,13 +1,13 @@
 {
-    "Version": "2.1.37.22",
-    "Names": {
-        "ARS": [
-            "$",
-            "peso argentino"
-        ],
-        "USD": [
-            "US$",
-            "dólar estadounidense"
-        ]
-    }
+  "Version": "2.1.37.22",
+  "Names": {
+    "ARS": [
+      "$",
+      "peso argentino"
+    ],
+    "USD": [
+      "US$",
+      "dólar estadounidense"
+    ]
+  }
 }

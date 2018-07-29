@@ -1,6 +1,6 @@
 {
-    "required": false,
-    "default": null,
-    "is_lazy": true,
-    "has_normalizer": false
+  "required": false,
+  "default": null,
+  "is_lazy": true,
+  "has_normalizer": false
 }

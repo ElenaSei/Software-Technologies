@@ -11,20 +11,20 @@ import noConflict from './handlebars/no-conflict';
 
 // For compatibility and usage outside of module systems, make the Handlebars object a namespace
 function create() {
-  let hb = new base.HandlebarsEnvironment();
+    let hb = new base.HandlebarsEnvironment();
 
-  Utils.extend(hb, base);
-  hb.SafeString = SafeString;
-  hb.Exception = Exception;
-  hb.Utils = Utils;
-  hb.escapeExpression = Utils.escapeExpression;
+    Utils.extend(hb, base);
+    hb.SafeString = SafeString;
+    hb.Exception = Exception;
+    hb.Utils = Utils;
+    hb.escapeExpression = Utils.escapeExpression;
 
-  hb.VM = runtime;
-  hb.template = function(spec) {
-    return runtime.template(spec, hb);
-  };
+    hb.VM = runtime;
+    hb.template = function (spec) {
+        return runtime.template(spec, hb);
+    };
 
-  return hb;
+    return hb;
 }
 
 let inst = create();

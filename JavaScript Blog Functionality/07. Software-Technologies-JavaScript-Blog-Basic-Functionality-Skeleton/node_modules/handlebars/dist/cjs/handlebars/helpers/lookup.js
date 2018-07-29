@@ -3,9 +3,9 @@
 exports.__esModule = true;
 
 exports['default'] = function (instance) {
-  instance.registerHelper('lookup', function (obj, field) {
-    return obj && obj[field];
-  });
+    instance.registerHelper('lookup', function (obj, field) {
+        return obj && obj[field];
+    });
 };
 
 module.exports = exports['default'];

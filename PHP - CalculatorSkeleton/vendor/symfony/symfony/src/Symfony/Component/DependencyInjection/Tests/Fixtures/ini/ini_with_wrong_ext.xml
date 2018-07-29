@@ -1,2 +1,2 @@
 [parameters]
-  with_wrong_ext = 'from ini'
+        with_wrong_ext = 'from ini'

@@ -1,33 +1,33 @@
 {
-    "Version": "2.1.37.22",
-    "Names": {
-        "AMD": [
-            "AMD",
-            "dram armenio"
-        ],
-        "CAD": [
-            "CAD",
-            "dólar canadiense"
-        ],
-        "ERN": [
-            "ERN",
-            "nafka"
-        ],
-        "EUR": [
-            "EUR",
-            "euro"
-        ],
-        "THB": [
-            "THB",
-            "bat"
-        ],
-        "USD": [
-            "USD",
-            "dólar estadounidense"
-        ],
-        "VND": [
-            "VND",
-            "dong"
-        ]
-    }
+  "Version": "2.1.37.22",
+  "Names": {
+    "AMD": [
+      "AMD",
+      "dram armenio"
+    ],
+    "CAD": [
+      "CAD",
+      "dólar canadiense"
+    ],
+    "ERN": [
+      "ERN",
+      "nafka"
+    ],
+    "EUR": [
+      "EUR",
+      "euro"
+    ],
+    "THB": [
+      "THB",
+      "bat"
+    ],
+    "USD": [
+      "USD",
+      "dólar estadounidense"
+    ],
+    "VND": [
+      "VND",
+      "dong"
+    ]
+  }
 }

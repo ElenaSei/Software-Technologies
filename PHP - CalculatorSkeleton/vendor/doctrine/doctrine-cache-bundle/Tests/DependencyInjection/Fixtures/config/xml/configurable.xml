@@ -1,11 +1,11 @@
 <?xml version="1.0" ?>
 <srv:container xmlns="http://doctrine-project.org/schemas/symfony-dic/cache"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns:srv="http://symfony.com/schema/dic/services"
-    xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xmlns:srv="http://symfony.com/schema/dic/services"
+               xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd
                         http://doctrine-project.org/schemas/symfony-dic/cache http://doctrine-project.org/schemas/symfony-dic/cache/doctrine_cache-1.0.xsd">
 
-     <doctrine-cache>
+    <doctrine-cache>
         <provider name="configurable_apc_provider">
             <apc/>
         </provider>
@@ -36,11 +36,11 @@
         </provider>
 
         <provider name="configurable_redis_provider">
-            <redis host="localhost" port="11211" />
+            <redis host="localhost" port="11211"/>
         </provider>
 
         <provider name="configurable_mongodb_provider">
-            <mongodb server="localhost:11211" >
+            <mongodb server="localhost:11211">
                 <database-name>my_database</database-name>
                 <collection-name>my_collection</collection-name>
             </mongodb>
@@ -57,7 +57,7 @@
         </provider>
 
         <provider name="configurable_sqlite3_provider">
-            <sqlite3 file-name="cache.db" >
+            <sqlite3 file-name="cache.db">
                 <table-name>my_table</table-name>
             </sqlite3>
         </provider>

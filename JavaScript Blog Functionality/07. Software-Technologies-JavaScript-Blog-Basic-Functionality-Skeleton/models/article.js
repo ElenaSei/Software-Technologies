@@ -2,18 +2,18 @@ const Sequelize = require('sequelize');
 const User = require('../models').User;
 
 module.exports = function (sequelize) {
-    const Article = sequelize.define('Article',{
-        title:{
+    const Article = sequelize.define('Article', {
+        title: {
             type: Sequelize.STRING,
             allowNull: false,
             required: true
         },
-        content:{
+        content: {
             type: Sequelize.TEXT,
             allowNull: false,
             required: true
         },
-        date:{
+        date: {
             type: Sequelize.DATE,
             allowNull: false,
             required: true,

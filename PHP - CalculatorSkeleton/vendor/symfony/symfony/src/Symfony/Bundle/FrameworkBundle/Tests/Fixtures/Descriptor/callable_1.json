@@ -1,4 +1,4 @@
 {
-    "type": "function",
-    "name": "array_key_exists"
+  "type": "function",
+  "name": "array_key_exists"
 }

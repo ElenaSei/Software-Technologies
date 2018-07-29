@@ -7,13 +7,13 @@
             <argument index="0">app</argument>
         </service>
 
-        <service id="logger" alias="monolog.logger" />
+        <service id="logger" alias="monolog.logger"/>
 
         <service id="monolog.logger" parent="monolog.logger_prototype" public="false">
             <argument index="0">app</argument>
         </service>
         <service id="monolog.logger_prototype" class="Symfony\Bridge\Monolog\Logger" abstract="true">
-            <argument /><!-- Channel -->
+            <argument/><!-- Channel -->
         </service>
     </services>
 </container>

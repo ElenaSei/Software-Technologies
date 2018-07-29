@@ -7,7 +7,7 @@
          bootstrap="../../vendor/autoload.php"
 >
     <php>
-        <ini name="error_reporting" value="-1" />
+        <ini name="error_reporting" value="-1"/>
     </php>
 
     <logging>
@@ -25,7 +25,7 @@
             <directory>../../lib/Doctrine/</directory>
         </whitelist>
     </filter>
-    
+
     <groups>
         <exclude>
             <group>performance</group>

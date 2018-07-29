@@ -12,37 +12,45 @@ if (config.use_env_variable) {
 } else {
     sequelize = new Sequelize(
         config.database, config.username, config.password, config
-
     );
 
 }
 
 fs
     .readdirSync(__dirname)
-    .filter(file =>
-        (file.indexOf('.') !== 0) &&
-        (file !== basename) &&
-        (file.slice(-3) === '.js'))
-    .forEach(file => {
+    .filter(file = >
+(file.indexOf('.') !== 0) &&
+(file !== basename) &&
+(file.slice(-3) === '.js')
+)
+.
+forEach(file = > {
 
-        const model = sequelize.import(path.join(__dirname, file));
-        db[model.name] = model;
-    });
+    const model = sequelize.import(path.join(__dirname, file));
+db[model.name] = model;
+})
+;
 
-Object.keys(db).forEach(modelName => {
-    if (db[modelName].associate) {
-        db[modelName].associate(db);
-    }
-});
+Object.keys(db).forEach(modelName = > {
+    if(db[modelName].associate
+)
+{
+    db[modelName].associate(db);
+}
+})
+;
 
 const models = Object.keys(db);
 
-async function create(models) {
+async
+
+function create(models) {
     console.log('Initializing...');
-    await sequelize
+    await
+    sequelize
         .authenticate()
-        .then(function(err) {
-            console.log('\x1b[32m%s\x1b[0m','Connection has been established successfully.');
+        .then(function (err) {
+            console.log('\x1b[32m%s\x1b[0m', 'Connection has been established successfully.');
         })
         .catch(function (err) {
             console.error('Unable to connect to the database!');
@@ -51,7 +59,8 @@ async function create(models) {
     for (let i = 0; i < models.length; i++) {
         const modelName = models[i];
         try {
-            await db[modelName].sync();
+            await
+            db[modelName].sync();
             models.splice(i, 1);
             i--;
             //console.log('success for '+ modelName);

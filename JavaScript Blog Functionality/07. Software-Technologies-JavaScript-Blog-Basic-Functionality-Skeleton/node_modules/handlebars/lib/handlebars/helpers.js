@@ -7,11 +7,11 @@ import registerLookup from './helpers/lookup';
 import registerWith from './helpers/with';
 
 export function registerDefaultHelpers(instance) {
-  registerBlockHelperMissing(instance);
-  registerEach(instance);
-  registerHelperMissing(instance);
-  registerIf(instance);
-  registerLog(instance);
-  registerLookup(instance);
-  registerWith(instance);
+    registerBlockHelperMissing(instance);
+    registerEach(instance);
+    registerHelperMissing(instance);
+    registerIf(instance);
+    registerLog(instance);
+    registerLookup(instance);
+    registerWith(instance);
 }
