@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{E79E7F66-A4BA-41C0-ACD5-A1362A5519C3}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="IMDB/Controllers/FilmController.cs">
+    <Files>
+      <File FileName="IMDB/Models/Film.cs" Line="23" Column="1" />
+      <File FileName="IMDB/Models/IMDBDbContext.cs" Line="6" Column="6" />
+      <File FileName="IMDB/Controllers/FilmController.cs" Line="8" Column="5" />
+      <File FileName="IMDB/Views/Film/Index.cshtml" Line="18" Column="31" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.IMDB PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,11 @@
+/Volumes/Val/Programming/GitHub/Software-Technologies/EXAM Preparations/IMDB/C# Skeleton/IMDB/bin/Debug/netcoreapp2.0/IMDB.deps.json
+/Volumes/Val/Programming/GitHub/Software-Technologies/EXAM Preparations/IMDB/C# Skeleton/IMDB/bin/Debug/netcoreapp2.0/IMDB.runtimeconfig.json
+/Volumes/Val/Programming/GitHub/Software-Technologies/EXAM Preparations/IMDB/C# Skeleton/IMDB/bin/Debug/netcoreapp2.0/IMDB.runtimeconfig.dev.json
+/Volumes/Val/Programming/GitHub/Software-Technologies/EXAM Preparations/IMDB/C# Skeleton/IMDB/bin/Debug/netcoreapp2.0/IMDB.dll
+/Volumes/Val/Programming/GitHub/Software-Technologies/EXAM Preparations/IMDB/C# Skeleton/IMDB/bin/Debug/netcoreapp2.0/IMDB.pdb
+/Volumes/Val/Programming/GitHub/Software-Technologies/EXAM Preparations/IMDB/C# Skeleton/IMDB/obj/Debug/netcoreapp2.0/IMDB.csprojResolveAssemblyReference.cache
+/Volumes/Val/Programming/GitHub/Software-Technologies/EXAM Preparations/IMDB/C# Skeleton/IMDB/obj/Debug/netcoreapp2.0/IMDB.csproj.CoreCompileInputs.cache
+/Volumes/Val/Programming/GitHub/Software-Technologies/EXAM Preparations/IMDB/C# Skeleton/IMDB/obj/Debug/netcoreapp2.0/IMDB.AssemblyInfoInputs.cache
+/Volumes/Val/Programming/GitHub/Software-Technologies/EXAM Preparations/IMDB/C# Skeleton/IMDB/obj/Debug/netcoreapp2.0/IMDB.AssemblyInfo.cs
+/Volumes/Val/Programming/GitHub/Software-Technologies/EXAM Preparations/IMDB/C# Skeleton/IMDB/obj/Debug/netcoreapp2.0/IMDB.dll
+/Volumes/Val/Programming/GitHub/Software-Technologies/EXAM Preparations/IMDB/C# Skeleton/IMDB/obj/Debug/netcoreapp2.0/IMDB.pdb

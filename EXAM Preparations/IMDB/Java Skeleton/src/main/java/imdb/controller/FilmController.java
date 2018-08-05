@@ -25,48 +25,92 @@ public class FilmController {
 	@GetMapping("/")
 	public String index(Model model) {
 
-		// TODO
-		return null;
+		List<Film> films = this.filmRepository.findAll();
+
+		model.addAttribute("films", films);
+		model.addAttribute("view", "film/index");
+
+		return "base-layout";
 	}
 
 	@GetMapping("/create")
 	public String create(Model model) {
-		// TODO
-		return null;
 
+		model.addAttribute("view", "film/create");
+
+		return "base-layout";
 	}
 
 	@PostMapping("/create")
 	public String createProcess(Model model, FilmBindingModel filmBindingModel) {
+		Film film = new Film(
+				filmBindingModel.getName(),
+				filmBindingModel.getGenre(),
+				filmBindingModel.getDirector(),
+				filmBindingModel.getYear()
+		);
 
-		// TODO
-		return null;
+		this.filmRepository.saveAndFlush(film);
+
+		return "redirect:/";
 
 	}
 
 	@GetMapping("/edit/{id}")
 	public String edit(Model model, @PathVariable int id) {
-		// TODO
-		return null;
+		if (!this.filmRepository.exists(id)){
+			return "redirect:/";
+		}
 
+		Film film = this.filmRepository.findOne(id);
+
+		model.addAttribute("film", film);
+		model.addAttribute("view", "film/edit");
+
+		return "base-layout";
 	}
 
 	@PostMapping("/edit/{id}")
 	public String editProcess(Model model, @PathVariable int id, FilmBindingModel filmBindingModel) {
-		// TODO
-		return null;
+		if (!this.filmRepository.exists(id)){
+			return "redirect:/";
+		}
+
+		Film film = this.filmRepository.findOne(id);
+		film.setDirector(filmBindingModel.getDirector());
+		film.setGenre(filmBindingModel.getGenre());
+		film.setName(filmBindingModel.getName());
+		film.setYear(filmBindingModel.getYear());
+
+		this.filmRepository.saveAndFlush(film);
+
+		return "redirect:/";
 	}
 
 	@GetMapping("/delete/{id}")
 	public String delete(Model model, @PathVariable int id) {
-		// TODO
-		return null;
+		if (!this.filmRepository.exists(id)){
+			return "redirect:/";
+		}
+
+		Film film = this.filmRepository.findOne(id);
+
+		model.addAttribute("film", film);
+		model.addAttribute("view", "film/delete");
+
+		return "base-layout";
 	}
 
 	@PostMapping("/delete/{id}")
 	public String deleteProcess(@PathVariable int id) {
-		// TODO
-		return null;
+		if (!this.filmRepository.exists(id)){
+			return "redirect:/";
+		}
 
+		Film film = this.filmRepository.findOne(id);
+
+		this.filmRepository.delete(film);
+
+		return "redirect:/";
 	}
 }
