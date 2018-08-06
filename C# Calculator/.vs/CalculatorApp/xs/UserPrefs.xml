@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{763AA933-7AF8-4E9B-8AE0-2D4B8FBD05F0}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="CalculatorApp/Views/Home/Index.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CalculatorApp/Controllers/HomeController.cs">
     <Files>
-      <File FileName="CalculatorApp/Controllers/HomeController.cs" Line="13" Column="2" />
-      <File FileName="CalculatorApp/Models/Calculator.cs" Line="19" Column="1" />
+      <File FileName="CalculatorApp/Controllers/HomeController.cs" Line="8" Column="16" />
+      <File FileName="CalculatorApp/Models/Calculator.cs" Line="32" Column="53" />
       <File FileName="CalculatorApp/Views/Home/Index.cshtml" Line="50" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
